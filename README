@@ -1,0 +1,14 @@
+-- Установка зависимостей
+npm i
+
+-- Вызов исполнения файла задачи
+npx babel-node ./000-initial-task/task.js
+
+-- Вызов исполенения файла задачи с перезапуском в случае изменения кода
+nodemon --exec \"npx babel-node ./000-initial-task/task.js\"
+
+-- Вызов исполнения тестов
+- для вызова всех тестов
+npx jest
+- или для вызова одного теста
+npx jest ./000-initial-task/units.test.js
