@@ -1,5 +1,5 @@
 export const sortByLength = (arr) => {
-    const Myarr = arr;
+    const Myarr = [...arr];
     for (let i = 1; i < Myarr.length; i++) {
         const current = Myarr[i];
         let j = i - 1;

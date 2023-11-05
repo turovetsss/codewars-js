@@ -6,8 +6,7 @@ export const FindNb = (m) => {
         sum += n ** 3;
         n++;
     }
-    const result = (sum === m) ? (n - 1) : -1;
-    return result;
+    return (sum === m) ? (n - 1) : -1;
 };
 
 console.log(`2 is even = ${FindNb(4183059834009)}`);

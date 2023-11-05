@@ -11,6 +11,6 @@ export const findUniqStr = (iterable) => {
         }
     }
 
-    return [result];
+    return result;
 };
 console.log(`${findUniqStr('AAAABBBCCDAABBB')}`);
