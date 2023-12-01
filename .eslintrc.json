@@ -1,4 +1,9 @@
 {
+  "compilerOptions": {
+    "lib": [
+      "es2020", "esnext"
+    ]
+  },
     "env": {
         "browser": true,
         "es2021": true,
